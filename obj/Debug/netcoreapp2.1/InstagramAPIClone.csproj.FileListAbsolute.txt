@@ -1,0 +1,14 @@
+/Users/alansax/Documents/dotnet/InstagramAPIClone/bin/Debug/netcoreapp2.1/InstagramAPIClone.deps.json
+/Users/alansax/Documents/dotnet/InstagramAPIClone/bin/Debug/netcoreapp2.1/InstagramAPIClone.runtimeconfig.json
+/Users/alansax/Documents/dotnet/InstagramAPIClone/bin/Debug/netcoreapp2.1/InstagramAPIClone.runtimeconfig.dev.json
+/Users/alansax/Documents/dotnet/InstagramAPIClone/bin/Debug/netcoreapp2.1/InstagramAPIClone.dll
+/Users/alansax/Documents/dotnet/InstagramAPIClone/bin/Debug/netcoreapp2.1/InstagramAPIClone.pdb
+/Users/alansax/Documents/dotnet/InstagramAPIClone/obj/Debug/netcoreapp2.1/InstagramAPIClone.csprojAssemblyReference.cache
+/Users/alansax/Documents/dotnet/InstagramAPIClone/obj/Debug/netcoreapp2.1/InstagramAPIClone.csproj.CoreCompileInputs.cache
+/Users/alansax/Documents/dotnet/InstagramAPIClone/obj/Debug/netcoreapp2.1/InstagramAPIClone.RazorAssemblyInfo.cache
+/Users/alansax/Documents/dotnet/InstagramAPIClone/obj/Debug/netcoreapp2.1/InstagramAPIClone.RazorAssemblyInfo.cs
+/Users/alansax/Documents/dotnet/InstagramAPIClone/obj/Debug/netcoreapp2.1/InstagramAPIClone.AssemblyInfoInputs.cache
+/Users/alansax/Documents/dotnet/InstagramAPIClone/obj/Debug/netcoreapp2.1/InstagramAPIClone.AssemblyInfo.cs
+/Users/alansax/Documents/dotnet/InstagramAPIClone/obj/Debug/netcoreapp2.1/InstagramAPIClone.RazorTargetAssemblyInfo.cache
+/Users/alansax/Documents/dotnet/InstagramAPIClone/obj/Debug/netcoreapp2.1/InstagramAPIClone.dll
+/Users/alansax/Documents/dotnet/InstagramAPIClone/obj/Debug/netcoreapp2.1/InstagramAPIClone.pdb

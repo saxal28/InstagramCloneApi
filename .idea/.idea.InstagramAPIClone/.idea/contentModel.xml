@@ -9,6 +9,16 @@
         <e p="ValuesController.cs" t="Include" />
       </e>
       <e p="InstagramAPIClone.csproj" t="IncludeRecursive" />
+      <e p="Migrations" t="Include">
+        <e p="20190430183420_InitialCreate.cs" t="Include" />
+        <e p="20190430183420_InitialCreate.Designer.cs" t="Include" />
+        <e p="DatabaseContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Blog.cs" t="Include" />
+        <e p="DatabaseContext.cs" t="Include" />
+        <e p="Post.cs" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp2.1" t="Include">

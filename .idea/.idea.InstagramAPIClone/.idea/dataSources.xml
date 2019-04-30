@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="InstagramCloneLocal@alanmsqlserver.cwpl68fqsbe3.us-east-2.rds.amazonaws.com" uuid="2e35b157-ebaf-49d4-9921-686e50ee8fcb">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://alanmsqlserver.cwpl68fqsbe3.us-east-2.rds.amazonaws.com:1433;database=InstagramCloneLocal</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
