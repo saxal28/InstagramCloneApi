@@ -6,16 +6,18 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
+        <e p="PostsController.cs" t="Include" />
         <e p="ValuesController.cs" t="Include" />
       </e>
       <e p="InstagramAPIClone.csproj" t="IncludeRecursive" />
       <e p="Migrations" t="Include">
         <e p="20190430183420_InitialCreate.cs" t="Include" />
         <e p="20190430183420_InitialCreate.Designer.cs" t="Include" />
+        <e p="20190430211439_RemoveBlogTable.cs" t="Include" />
+        <e p="20190430211439_RemoveBlogTable.Designer.cs" t="Include" />
         <e p="DatabaseContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
-        <e p="Blog.cs" t="Include" />
         <e p="DatabaseContext.cs" t="Include" />
         <e p="Post.cs" t="Include" />
       </e>

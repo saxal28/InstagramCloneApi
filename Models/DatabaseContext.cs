@@ -5,13 +5,16 @@ namespace InstagramAPIClone.Models
     public class DatabaseContext: DbContext
     {
         
-        public DatabaseContext()
-        {}
-        
         public DatabaseContext(DbContextOptions<DatabaseContext> options): base(options)
         {}
-        
-        public virtual DbSet<Blog> Blog { get; set; }
-        public virtual DbSet<Blog> Post { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Post>()
+                .Property(post => post.Title)
+                .IsRequired();
+        }
+
+        public virtual DbSet<Post> Post { get; set; }
     }
 }
