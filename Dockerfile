@@ -17,6 +17,6 @@ COPY --from=build-env /app/out .
 RUN ls; echo 'Current LS'
 
 # ENTRYPOINT ["dotnet", "InstagramAPIClone.dll"]
-CMD dotnet InstagramAPIClone.dll
+CMD dotnet ./InstagramAPIClone.dll
 
-RUN docker heroku logs --tail
+RUN heroku logs --tail
