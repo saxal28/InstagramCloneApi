@@ -20,4 +20,4 @@ jobs:
           docker push registry.heroku.com/$HEROKU_APP_NAME/web                
           curl https://cli-assets.heroku.com/install.sh | sh
           heroku container:release web -a $HEROKU_APP_NAME
-          heroku logs --tail
+          heroku logs --tail --app instagram-dotnet-clone
