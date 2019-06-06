@@ -14,4 +14,5 @@ RUN dotnet publish -c Release -o out
 FROM microsoft/dotnet:aspnetcore-runtime
 WORKDIR /app
 COPY --from=build-env /app/out .
-CMD dotnet ./InstagramAPIClone.dll
+# CMD dotnet InstagramAPIClone.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet InstagramAPIClone.dll
