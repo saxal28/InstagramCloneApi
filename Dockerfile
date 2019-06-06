@@ -14,7 +14,7 @@ FROM microsoft/dotnet:aspnetcore-runtime
 WORKDIR /app
 COPY --from=build-env /app/out .
 
-RUN docker ps
+RUN ls; echo 'Current LS'
 
 # ENTRYPOINT ["dotnet", "InstagramAPIClone.dll"]
 CMD dotnet InstagramAPIClone.dll
