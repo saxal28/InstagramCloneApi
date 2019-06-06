@@ -13,5 +13,10 @@ RUN dotnet publish -c Release -o out
 FROM microsoft/dotnet:aspnetcore-runtime
 WORKDIR /app
 COPY --from=build-env /app/out .
+
+RUN docker ps
+
 # ENTRYPOINT ["dotnet", "InstagramAPIClone.dll"]
 CMD dotnet InstagramAPIClone.dll
+
+RUN docker heroku logs --tail
