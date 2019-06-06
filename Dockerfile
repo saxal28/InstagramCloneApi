@@ -1,4 +1,5 @@
 FROM microsoft/dotnet:sdk AS build-env
+RUN ls; echo "RUNNING INITIAL LS"
 WORKDIR /app
 
 # Copy csproj and restore as distinct layers
@@ -13,5 +14,4 @@ RUN dotnet publish -c Release -o out
 FROM microsoft/dotnet:aspnetcore-runtime
 WORKDIR /app
 COPY --from=build-env /app/out .
-# CMD dotnet ./InstagramAPIClone.dll
-ENTRYPOINT ["dotnet", "InstagramAPIClone.dll"]
+CMD dotnet ./InstagramAPIClone.dll
